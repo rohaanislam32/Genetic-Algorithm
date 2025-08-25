@@ -78,3 +78,25 @@ Genetic-Algorithm/
 3. Install dependencies:
    ```bash
    pip install -r requirements.txt
+
+## Example Output
+### Direct Matches
+=== Direct Match Results (Name Filtered) ===
+Matches found: 10
+Target: 1500000.0  |  Match: 1500000.0 | Debtor: ABC Ltd
+Target: 5473217.0  |  Match: 5473217.0 | Debtor: XYZ Corp
+...
+Execution time: 0.3309 seconds
+### Genetic Algorithm
+=== Genetic Algorithm Progress (Name Filtered) ===
+[1/38] Target: 2995679.0 | Achieved: 2995679.0 | Subset Size: 3
+[2/38] Target: 3117847.0 | Achieved: 3117847.0 | Subset Size: 2
+...
+
+=== Genetic Algorithm Results Summary ===
+Total targets: 38
+Exact matches found: 10
+Execution time: 5.40 seconds
+Average % error across targets: 1.45%
+Accuracy (within ±10%): 100
+
